@@ -34,7 +34,6 @@ xtend-gen
 .DS_Store
 
 # --------------------------------------- ECLIPSE PROJECT -------------------------------------------
-.classpath
 .metadata
 tmp/
 *.tmp
