@@ -41,12 +41,9 @@ tmp/
 *.swp
 *~.nib
 local.properties
-.settings/
+#.settings/
 .loadpath
 .recommenders
 
 # External tool builders
-.externalToolBuilders/
-
-# Locally stored "Eclipse launch configurations"
-#*.launch
+#.externalToolBuilders/
