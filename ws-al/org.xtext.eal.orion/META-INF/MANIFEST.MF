@@ -8,5 +8,23 @@ Bundle-SymbolicName: org.xtext.eal.orion; singleton:=true
 Bundle-ActivationPolicy: lazy
 Require-Bundle: org.eclipse.xtext,
  org.eclipse.xtext.xbase,
- org.eclipse.equinox.common;bundle-version="3.5.0"
+ org.eclipse.equinox.common;bundle-version="3.5.0",
+ org.eclipse.emf.ecore,
+ org.eclipse.xtext.xbase.lib;bundle-version="2.14.0",
+ org.antlr.runtime,
+ org.eclipse.xtext.util,
+ org.eclipse.emf.common,
+ org.eclipse.xtend.lib;bundle-version="2.14.0"
 Bundle-RequiredExecutionEnvironment: JavaSE-1.8
+Export-Package: org.xtext.eal.scoping,
+ org.xtext.eal.validation,
+ org.xtext.eal.services,
+ org.xtext.eal.orion,
+ org.xtext.eal.generator,
+ org.xtext.eal.orion.util,
+ org.xtext.eal.orion.impl,
+ org.xtext.eal.parser.antlr,
+ org.xtext.eal.serializer,
+ org.xtext.eal,
+ org.xtext.eal.parser.antlr.internal
+Import-Package: org.apache.log4j
