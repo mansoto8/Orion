@@ -1,0 +1,12 @@
+grammar org.xtext.eal.Orion with org.eclipse.xtext.common.Terminals
+
+generate orion "http://www.xtext.org/eal/Orion"
+
+Model:
+	greetings+=Greeting*;
+	
+Greeting:
+	'Hello' name=ID '!';
+
+	
+	
