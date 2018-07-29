@@ -35,7 +35,6 @@ xtend-gen
 
 # --------------------------------------- ECLIPSE PROJECT -------------------------------------------
 .classpath
-.project
 .metadata
 bin/
 tmp/
